@@ -1,0 +1,85 @@
+body{
+    max-width: 100%;
+    margin: 0;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#navbar {
+    height: 50px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#navbar ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+#navbar li {
+  flex: 1;
+  border-bottom: 1px solid grey;
+  max-width: 150px;
+  margin: auto;
+  text-align: center;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+#content {
+  display: flex;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+#profilepicture{
+  flex: 1;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+#profiletext {
+  flex:2;
+}
+
+#iets{
+  flex: 1;
+  min-width: 100%;
+}
+
+.link{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  width: 50%;
+  margin: auto;
+}
+
+.link:hover{
+  color: blue;
+}
+
+.linkpicture {
+width: 20px;
+height: 20px;
+}
+
+.projectpicture {
+  width: 300px;
+  height: 200px;
+}
+
+#content:last-child{
+  margin-bottom: 100px;
+}
